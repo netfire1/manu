@@ -1,0 +1,9 @@
+/media/user/XBOOT/PhpStorm-139.732/bin$
+sudo sh opt/PhpStorm/bin/phpstorm.sh
+google-chrome
+sudo service apache2 restart
+
+pavucontrol
+
+Создание сайта yii:
+/usr/bin/php /var/www/html/yii-1.1/framework/yiic.php webapp /var/www/html/НАЗВАНИЕ САЙТА

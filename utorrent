@@ -1,0 +1,41 @@
+Install uTorrent Server 3.3
+Step 1: Download latest uTorrent Server from here
+
+Note: (You need to download uTorrent Server for 13.04, also works for Ubuntu 14.04)
+Step 2: Extract uTorrent Files
+
+    Launch terminal and change directory to Downloads folder
+
+    cd Downloads/
+
+    Extract uTorrent files to the /opt directory
+
+    sudo tar xvzf utserver.tar.gz -C /opt/
+
+Step 3: Set Permission
+
+    Set permission on uTorrent-server folder
+
+    sudo chmod -R 777 /opt/utorrent-server-alpha-v3_3/
+
+Step 4: Set Symbolic link
+
+    Run the command to link uTorrent server to the /user/bin directory.
+
+    sudo ln -s /opt/utorrent-server-alpha-v3_3/utserver /usr/bin/utserver
+
+Step 5: Start uTorrent
+
+utserver -settingspath /opt/utorrent-server-alpha-v3_3/
+
+Note: If you get an error about libssl.so package missing, run the command below to install it, then try starting it again.
+
+sudo apt-get install libssl0.9.8:i386
+
+Step 6: Log into uTorrent
+
+    Open Firefox and browse to the URL
+
+    localhost:8080/gui
+
+    The username is admin and leave the password field empty

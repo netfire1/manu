@@ -1,0 +1,3 @@
+Download installer
+chmod +x ~/Downloads/fileName.sh
+cd ~/Downloads && ./fileName.sh
