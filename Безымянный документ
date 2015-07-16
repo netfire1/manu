@@ -4,6 +4,11 @@ google-chrome
 sudo service apache2 restart
 
 pavucontrol
+gnome-system-monitor
 
 Создание сайта yii:
 /usr/bin/php /var/www/html/yii-1.1/framework/yiic.php webapp /var/www/html/НАЗВАНИЕ САЙТА
+
+Путь PHP          which php
+
+Поиск по содержимому файлов		grep -r 'искомое слово' /путь/ --color
