@@ -1,0 +1,12 @@
+First of all; add a new database named backup_lookup. Then just run this script,
+inserting your own databases' root path and backup filepath
+Then execute:
+
+USE [master]
+GO
+RESTORE DATABASE backup_lookup
+ FROM DISK = 'C:\backup.bak'
+WITH REPLACE,
+ MOVE 'Old Database Name' TO 'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\backup_lookup.mdf',
+ MOVE 'Old Database Name_log' TO 'C:\Program Files\Microsoft SQL Server\MSSQL10_50.MSSQLSERVER\MSSQL\DATA\backup_lookup_log.ldf'
+GO
