@@ -12,3 +12,8 @@ gnome-system-monitor
 Путь PHP          which php
 
 Поиск по содержимому файлов		grep -r 'искомое слово' /путь/ --color
+
+Remove Thunderbird from the indicator-messages
+Press Alt-F2, type dconf-editor into the box, and press Enter to run it.
+Browse to com > canonical > indicator > messages, and just delete 'thunderbird.desktop' from between the brackets.
+Logout, and log back in
