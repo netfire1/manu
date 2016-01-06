@@ -26,3 +26,6 @@ Remove Thunderbird from the indicator-messages
 Press Alt-F2, type dconf-editor into the box, and press Enter to run it.
 Browse to com > canonical > indicator > messages, and just delete 'thunderbird.desktop' from between the brackets.
 Logout, and log back in
+
+Монтирвание диска D
+sudo mount -t ntfs /dev/sdc /mnt
