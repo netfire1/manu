@@ -21,6 +21,7 @@ php yii migrate
 Путь PHP          which php
 
 Поиск по содержимому файлов		grep -r 'искомое слово' /путь/ --color
+Или установить sudo apt-get install gnome-search-tool
 
 Remove Thunderbird from the indicator-messages
 Press Alt-F2, type dconf-editor into the box, and press Enter to run it.
