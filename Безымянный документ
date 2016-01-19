@@ -31,5 +31,5 @@ Logout, and log back in
 Монтирвание диска D
 sudo mount -t ntfs /dev/sdc /mnt
 
-HTML, CSS, JavaScript and JSON code formatter for Sublime Text 2 and 3 via node.js
-git clone https://github.com/victorporof/Sublime-HTMLPrettify.git ~/.config/sublime-text-3/Packages/Sublime-HTMLPrettify
+HTML, CSS, JavaScript and JSON code formatter for Sublime Text 2 and (for 3 change sublime-text-2 to sublime-text-3) via node.js
+git clone https://github.com/victorporof/Sublime-HTMLPrettify.git ~/.config/sublime-text-2/Packages/Sublime-HTMLPrettify
