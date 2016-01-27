@@ -34,7 +34,7 @@ sudo mount -t ntfs /dev/sdc /mnt
 HTML, CSS, JavaScript and JSON code formatter for Sublime Text 2 and (for 3 change sublime-text-2 to sublime-text-3) via node.js
 git clone https://github.com/victorporof/Sublime-HTMLPrettify.git ~/.config/sublime-text-2/Packages/Sublime-HTMLPrettify
 
-Add Ubuntu environment () variables
-add to home_folder/.profile
+Add Ubuntu environment (config) variables
+add to etc/environment
 export VARIABLE_NAME="var-value"
 (note!!! that there are NO spaces around =)
