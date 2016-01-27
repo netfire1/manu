@@ -38,3 +38,7 @@ Add Ubuntu environment (config) variables
 add to etc/environment
 export VARIABLE_NAME="var-value"
 (note!!! that there are NO spaces around =)
+
+Add PHP environment (config) variables
+add to etc/apache2/sites-avaliable/vhost_file
+SetEnv VARIABLE_NAME var-value
