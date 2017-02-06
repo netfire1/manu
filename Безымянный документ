@@ -42,7 +42,7 @@ export VARIABLE_NAME="var-value"
 Add PHP environment (config) variables
 add to etc/apache2/sites-avaliable/vhost_file
 SetEnv VARIABLE_NAME var-value
-(maybe it't neccesary to set folowwing:
+(maybe it't neccesary to set following:
 SetEnv APPLICATION_ENV development)
 
 if "gulp" command writes /usr/bin/env: node: No such file or directory
